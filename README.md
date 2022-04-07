@@ -1,7 +1,4 @@
-# JC's resume
-
-Credit goes to the template creator: 
-
+# data-science-tech-resume-template
 ## OFFICIAL PUBLIC OVERLEAF TEMPLATE
 https://www.overleaf.com/latex/templates/data-science-tech-resume-template/zcdmpfxrzjhv
 
