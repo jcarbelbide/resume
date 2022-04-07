@@ -1,0 +1,61 @@
+\documentclass[letter,10pt]{article}
+\usepackage{TLCresume}
+\begin{document}
+
+%====================
+% EXPERIENCE A
+%====================
+\subsection{{RuneLite Open Source Client: ToG Crowdsourcing Plugin \hfill GitHub Open Source Project}}
+\subtext{Full Stack Software Engineer 
+% \hfill \underline{https://github.com/jcarbelbide/togcrowdsourcing.com}}
+\hfill \underline{\href{https://github.com/jcarbelbide/togcrowdsourcing.com}{github.com/jcarbelbide/togcrowdsourcing.com}}}
+\begin{zitemize}
+\item Developed plugin in Java to crowdsource game data, currently serving over 400 active users, and 12k+ requests per day. 
+\item Deployed Go backend on AWS, employing RESTful API design, and utilized NGINX as a reverse proxy to route traffic to different microservices and static web-pages.
+\item Placed server behind Cloudflare for metrics monitoring and protection against DDOS and other malicious attacks.
+\item Utilized SHA256 hashing algorithm to securely store user data like IP address in SQLite database in order to block repeat POST requests from the same client. 
+\item Created Go microservice to monitor RuneScape game servers over JS5 binary socket protocol to detect weekly server reset, and deployed as RESTful API on AWS Linux instance. 
+\item Built small, reactive web-application using React to display crowdsourced game data for non-RuneLite and mobile users.
+\item Tested server side data verification using Go tests, providing 100\% test coverage on data submissions. 
+\end{zitemize}
+
+%====================
+% EXPERIENCE B
+%====================
+\subsection{{Craigslist API \hfill GitHub Personal Project}}
+\subtext{Back End Software Engineer 
+% \hfill \underline{https://github.com/jcarbelbide/craigslist-api}}
+\hfill \underline{\href{https://github.com/jcarbelbide/craigslist-api}{github.com/jcarbelbide/craigslist-api}}}
+\begin{zitemize}
+\item Developed web-scraper REST API in Python using Beautiful Soup that returns JSON data from Craigslist search. 
+\item Dockerized and provided code on GitHub for other users to implement as microservice on Docker machines. 
+\item Deployed API on AWS server using NGINX, and designed example web page in React to showcase API.
+\end{zitemize}
+
+%====================
+% EXPERIENCE C
+%====================
+\subsection{{Pymeasure Open Source Library \hfill GitHub Open Source Project}}
+\subtext{Contributor 
+% \hfill \underline{https://github.com/pymeasure/pymeasure}}
+\hfill \underline{\href{https://github.com/pymeasure/pymeasure}{github.com/pymeasure/pymeasure}}}
+\begin{zitemize}
+\item Developed and tested Python driver for Thermotron 3800 oven. 
+\item Collaborated with community maintainers to ensure implementation follows project best practices. 
+\item Provided thorough documentation for implemented GPIB commands. 
+\end{zitemize}
+
+%====================
+% EXPERIENCE E
+%====================
+%\subsection{{ROLE / PROJECT E \hfill MMM YYYY --- MMM YYYY}}
+%\subtext{company E \hfill somewhere, state}
+%\begin{zitemize}
+%\item In lobortis libero consectetur eros vehicula, vel pellentesque quam fringilla.
+%\item Ut malesuada purus at mi placerat dapibus.
+%\item Suspendisse finibus massa eu nisi dictum, a imperdiet tellus convallis.
+%\item Nam feugiat erat vestibulum lacus feugiat, efficitur gravida nunc imperdiet.
+%\item Morbi porta lacus vitae augue luctus, a rhoncus est sagittis.
+%\end{zitemize}
+
+\end{document}
